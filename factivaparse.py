@@ -87,7 +87,7 @@ class FactivaParse:
         if len(files) ==0:
             raise ValueError("No valid target files. Run self.select_project")
         procced_files = self._proc_files(files, warn=True)
-        _archive = procced_files['archive']
+        archive = procced_files['archive']
         DF = self._out_DF(archive)
         self._export_dataframe(DF=DF)
 
