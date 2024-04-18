@@ -8,7 +8,8 @@ Install manually.
 2. From the current directory, run `pip install -r requirements.txt` in your terminal
 
 # Running factivaparse
-factivaparse can be run directly from the terminal, from a folder that contains `factivaparse.py` one or more RTF files exported from Factiva in the directory or subdirectory:
+factivaparse can be run directly from the terminal, from a directory that contains `factivaparse.py` as well as one or more RTF files exported from Factiva in the directory or subdirectory:
+
   `python -m factivaparse`
 
 factivaparse runs using a series of class objects that can be imported, allowing greater introspection and comparison of objects.
