@@ -513,4 +513,4 @@ class Article:
         return out_s
 
 if __name__=="__main__":
-    Headline()._run()
+    HeadlineParse()._run()
