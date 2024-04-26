@@ -1,4 +1,4 @@
-# factivaparse
+# headlineparse
 A Python script that iterates over RTF files exported in the a Factivalike format, compiles them, and spits them out in pandas a DataFrame with a sentiment analysis scoring of the headlines.
 
 # Install
