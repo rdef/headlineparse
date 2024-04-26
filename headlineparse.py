@@ -8,7 +8,7 @@ from datetime import datetime
 from striprtf.striprtf import rtf_to_text
 
 
-class FactivaParse:
+class HeadlineParse:
     
     def __init__(self, *, path = "./projects"):
         """Initialises the project. 
@@ -333,7 +333,7 @@ If an integer is provided, then it will attempt to identify by ID number."""
                     for article in articles:
                         archive.append(Article(article, search_hash=search.hash))
                 elif warn:
-                    print(f" - skipping file '{hl_rtf}' - not a Factiva file.")
+                    print(f" - skipping file '{hl_rtf}' - does not resemble a Factiva file.")
             if warn:
                 print(f" - archive now {len(archive)} articles")
             count+=1
@@ -513,4 +513,4 @@ class Article:
         return out_s
 
 if __name__=="__main__":
-    FactivaParse()._run()
+    Headline()._run()
