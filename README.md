@@ -13,3 +13,6 @@ factivaparse can be run directly from the terminal, from a directory that contai
   `python -m factivaparse`
 
 factivaparse runs using a series of class objects that can be imported, allowing greater introspection and comparison of objects.
+
+# Discussion and example
+A short explanation of the tool's origins is available [here](https://robbiefordyce.com/2024/04/26/factivaparse-children-and-media-use/).
