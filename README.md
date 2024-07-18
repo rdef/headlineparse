@@ -4,7 +4,7 @@ A Python script that iterates over RTF files exported in the a Factivalike forma
 # Install
 Install manually.
 
-1. Download and unzip the [latest release](releases/latest) or download `headlineparse.py` and `requirements.txt`
+1. Download and unzip the [latest release](https://github.com/rdef/headlineparse/releases/latest) or download `headlineparse.py` and `requirements.txt`
 2. Place the downloads in a working directory that contains at least one RTF file of headlines from a news database such as Factiva.
 3. From your working directory, run `pip install -r requirements.txt` in your terminal. This ensures that you have the required libraries, but will not install `headlineparse` to your PATH.
 
