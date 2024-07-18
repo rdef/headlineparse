@@ -11,9 +11,11 @@ Install manually.
 A version will eventually be made available on PyPi, and this ReadMe will be updated to reflect that when it happens.
 
 # Running headlineparse
-`headlineparse` can be run directly from the terminal, from a directory that contains `headlineparse.py` as well as one or more appropriately formatted RTF files in the directory or subdirectories:
+`headlineparse` can be run directly from the terminal within a directory that contains `headlineparse.py` as well as one or more appropriately formatted RTF files in that directory or subdirectories:
 
 &emsp;`python -m headlineparse`
+
+The tool does not currently have a hardcoded limit on the number or size of RTF files that can be scanned, so running this from Home or Documents directory is likely to break or cause issues in some manner and is not recommended.
 
 # Discussion and example
 `headlineparse` runs using a series of class objects that can be imported, allowing greater introspection and comparison of objects.
