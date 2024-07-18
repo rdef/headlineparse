@@ -13,7 +13,7 @@ A version will eventually be made available on PyPi, and this ReadMe will be upd
 # Running headlineparse
 `headlineparse` can be run directly from the terminal, from a directory that contains `headlineparse.py` as well as one or more appropriately formatted RTF files in the directory or subdirectories:
 
-  `python -m headlineparse`
+&emsp;`python -m headlineparse`
 
 # Discussion and example
 `headlineparse` runs using a series of class objects that can be imported, allowing greater introspection and comparison of objects.
